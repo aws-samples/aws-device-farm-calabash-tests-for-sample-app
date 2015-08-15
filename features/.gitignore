@@ -1,0 +1,55 @@
+# binaries
+*.ipa
+*.app
+*.apk
+ 
+## Mac OS X
+.DS_Store
+__MACOSX
+ 
+# Jetbrains
+.idea
+ 
+# irb
+.irb-history
+ 
+# bundler
+.bundle
+vendor
+ 
+# these two are candidates for ignoring; depends on the client
+# Gemfile.lock
+# .ruby-gemset
+ 
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+ 
+# Calabash / Cucumber
+rerun/
+reports/
+screenshots/
+screenshot*.png
+test-servers/
+ 
+# directory for staging for XTC runs
+xtc-staging/
+ 
+# Build products
+build/
+ 
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate

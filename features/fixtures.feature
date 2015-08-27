@@ -8,10 +8,6 @@ Feature: Fixtures
     And I am on the Fixtures Page
     And I take a screenshot
 
-  Scenario: Check if the default location is correct
-    Then I check the longitude is "-122.3491"
-    And the latitude is "47.6204"
-
   Scenario: Check if the wifi matches inputted Radio State
     Then I check if wifi is "true"
 

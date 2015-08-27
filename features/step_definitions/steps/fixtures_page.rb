@@ -16,14 +16,6 @@ And(/^I am on the Fixtures Page$/) do
   @current_page = page(FixturesPage)
 end
 
-Then(/^I check the longitude is "([^"]*)"$/) do |arg|
-  @current_page.check_longitude(arg)
-end
-
-And(/^the latitude is "([^"]*)"$/) do |arg|
-  @current_page.check_latitude(arg)
-end
-
 Then(/^I check if wifi is "(true|false)"$/) do |arg|
   @current_page.check_wifi(arg)
 end

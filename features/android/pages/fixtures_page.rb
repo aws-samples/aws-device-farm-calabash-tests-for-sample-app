@@ -18,16 +18,6 @@ class FixturesPage < ADFBasePage
     get_toolbar_title('Fixtures')
   end
 
-  # Checks the longitude value
-  def check_longitude (longitude)
-    check_if_id_contains_text('longitude',longitude)
-  end
-
-  # Checks the latitude value
-  def check_latitude (latitude)
-    check_if_id_contains_text('lat',latitude)
-  end
-
   # Checks the wifi state
   def check_wifi (state)
     check_if_id_contains_text('wifi',state)

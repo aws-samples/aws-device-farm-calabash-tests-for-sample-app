@@ -15,7 +15,7 @@ This is a collection of example Calabash test suites written for the AWS Device 
 	```
 	calabash-android version
 	```
-   You should see "0.5.8" as the result
+   You should get "0.5.8" as the result
 
 ### Running Your Tests Locally
 **Follow [the official Calabash guide](https://github.com/calabash/calabash-android#running-test) to run your tests locally**

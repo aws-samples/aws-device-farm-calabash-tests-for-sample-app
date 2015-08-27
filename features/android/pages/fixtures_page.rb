@@ -33,7 +33,7 @@ class FixturesPage < ADFBasePage
     check_if_id_contains_text('gps',state)
   end
 
-  # Checks the nfc state
+  # Checks the nfc state. Fails on devices with no nfc support
   def check_nfc (state)
     check_if_id_contains_text('nfc',state)
   end

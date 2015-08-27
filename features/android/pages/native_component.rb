@@ -35,6 +35,7 @@ class NativeComponent < ADFBasePage
   end
 
   # Checks to see if the camera preview is ongoing by checking it's content description
+  # Fails on devices with no camera support
   def check_for_camera_preview
     wait_for_element_exists("* id:'camera_surface_view' contentDescription:'Camera Preview Streaming'")
   end

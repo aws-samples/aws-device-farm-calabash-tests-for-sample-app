@@ -1,5 +1,5 @@
 #
-# Copyright 2014-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# Copyright 2014-2016 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License").
 # You may not use this file except in compliance with the License.
@@ -17,6 +17,12 @@ require 'calabash-android/operations'
 #The helper class for navigation across the app
 class Navigator
   include Calabash::Android::Operations
+
+  START_X = 95
+  START_Y = 20
+  END_X = 5
+  END_Y = 20
+  STEPS = 10
 
   # Navigates to a category row within the navigation drawer
   #
@@ -63,7 +69,7 @@ class Navigator
         fail = false
         break
       end
-      pan_left
+      perform_action('drag', START_X, END_X, START_Y, END_Y, STEPS)
     end
 
     if fail

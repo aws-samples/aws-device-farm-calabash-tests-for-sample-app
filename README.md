@@ -1,11 +1,14 @@
 # Calabash Sample Tests for AWS Device Farm Sample App
 This is a collection of example Calabash test suites written for the AWS Device Farm [Android](https://github.com/awslabs/aws-device-farm-sample-app-for-android) sample app. Please use these tests as a reference for your own AWS Device Farm Calabash tests.
 
+##### **Note**
+Explicit delays are occasionally added to the tests to allow the page to fully render, they are commented as such in the code. 
+
 # Android
 ## Getting Started
 1. If you're just getting started with Calabash, first read the [Official Calabash Documentation](https://github.com/calabash/calabash-android).
 
-	**We currently support calabash version 0.5.8. Be sure to have this installed when you test locally. Later versions 	of Calabash might cause unexpected results when running Calabash tests on AWS Device Farm.**
+	**We currently support calabash version 0.5.8. Be sure to have this installed when you test locally. Later versions of Calabash might cause unexpected results when running Calabash tests on AWS Device Farm.**
 
 2. Run the command to install the proper version of the calabash-android gem:
 	```

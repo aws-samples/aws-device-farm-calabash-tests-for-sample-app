@@ -19,6 +19,3 @@ Feature: Fixtures
 
   Scenario: Check if NFC matches inputted Radio State
     Then I check if the NFC is "true"
-
-
-

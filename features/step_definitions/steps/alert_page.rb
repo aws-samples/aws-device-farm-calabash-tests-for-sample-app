@@ -14,6 +14,8 @@
 #
 And(/^I am on the Alerts Page$/) do
   @current_page = page(AlertPage)
+  # Sleep to give page time to fully render
+  sleep(1)
 end
 
 Then(/^I should see the toast$/) do

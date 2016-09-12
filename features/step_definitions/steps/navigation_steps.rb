@@ -13,12 +13,10 @@
 # permissions and limitations under the License.
 #
 
-
 Given(/^that I navigate to the "([^"]*)" menu category$/) do |arg|
   @navigation = Navigator.new
   @navigation.navigate_to(arg)
 end
-
 
 Given(/^I swipe to the "([^"]*)" tab$/) do |arg|
   @navigation = Navigator.new

@@ -8,17 +8,17 @@ Explicit delays are occasionally added to the tests to allow the page to fully r
 ## Getting Started
 1. If you're just getting started with Calabash, first read the [Official Calabash Documentation](https://github.com/calabash/calabash-android).
 
-	**We currently support calabash version 0.5.8. Be sure to have this installed when you test locally. Later versions of Calabash might cause unexpected results when running Calabash tests on AWS Device Farm.**
+	**We currently support calabash version 0.9.0. Be sure to have this installed when you test locally. Later versions of Calabash might cause unexpected results when running Calabash tests on AWS Device Farm.**
 
 2. Run the command to install the proper version of the calabash-android gem:
 	```
-	gem install calabash-android –v 0.5.8
+	gem install calabash-android –v 0.9.0
 	```
 3. Verify that you have calabash-android installed with this command:
 	```
 	calabash-android version
 	```
-   You should get "0.5.8" as the result
+   You should get "0.9.0" as the result
 
 ### Running Your Tests Locally
 **Follow [the official Calabash guide](https://github.com/calabash/calabash-android#running-test) to run your tests locally**

@@ -1,4 +1,7 @@
-# Calabash Sample Tests for AWS Device Farm Sample App
+# DEPRECATED - Calabash Sample Tests for AWS Device Farm Sample App
+## Note: This sample is now deprecated and may not work as marking in the documentation below. 
+
+
 This is a collection of example Calabash test suites written for the AWS Device Farm [Android](https://github.com/awslabs/aws-device-farm-sample-app-for-android) sample app. Please use these tests as a reference for your own AWS Device Farm Calabash tests.
 
 ##### **Note**
